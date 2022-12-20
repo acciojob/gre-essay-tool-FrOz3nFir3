@@ -1,7 +1,7 @@
 const input = document.getElementById("evaluatedText");
 const wordCount = document.getElementById("wordCount");
 
-input.addEventListener("change", countWords);
+input.addEventListener("input", countWords);
 
 const wordsRegex = /[a-z]+/gi;
 function countWords() {
